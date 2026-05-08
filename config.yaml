@@ -1,0 +1,47 @@
+profile:
+  name: Wall Engine
+  title: YAML-Based Bento Grid System
+  description: >
+    Wall is a fully configurable, static-first Bento Grid engine.
+    It turns YAML into a modern UI without frameworks or backend dependencies.
+
+  avatar: assets/img/logo.png
+
+main:
+  - type: hero
+
+  - type: links
+    title: Project Links
+    items:
+      - name: Live Demo
+        url: http://aardaakpinar.github.io/wall
+        icon: bx bx-link
+
+      - name: Documentation
+        url: https://github.com/aardaakpinar/wall
+        icon: bx bx-book
+
+  - type: image
+    image: https://picsum.photos/800/500
+    alt: "Wall Bento Grid Preview"
+    url: https://github.com/aardaakpinar/wall
+    span: 2
+
+
+  - type: title
+    text: Feature
+
+  - type: text
+    title: Features Showcase
+    items:
+      - name: YAML Driven UI
+        description: Everything is controlled via a single config.yaml file.
+        url: https://github.com/aardaakpinar/wall
+
+      - name: Bento Grid Engine
+        description: Responsive grid system inspired by modern UI design.
+        url: https://github.com/aardaakpinar/wall
+
+      - name: Plugin Renderer System
+        description: Each card type is a pluggable renderer function.
+        url: https://github.com/aardaakpinar/wall
