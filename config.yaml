@@ -1,11 +1,10 @@
 profile:
-  name: Wall Engine
-  title: YAML-Based Bento Grid System
+  name: Ahmet Eren Özkara
+  title: Bilgi Güvenliği
   description: >
-    Wall is a fully configurable, static-first Bento Grid engine.
-    It turns YAML into a modern UI without frameworks or backend dependencies.
+    Siber Güvenlik bölümü öğrencisiyim
 
-  avatar: assets/img/logo.png
+  avatar: assets/img/pp.jpg
 
 main:
   - type: hero
