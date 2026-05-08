@@ -1,46 +1,84 @@
+theme:
+  background: "#0f0f0f"
+  foreground: "#fafafa"
+  card: "#171717"
+  cardForeground: "#fafafa"
+  primary: "#23b5b5"
+  primaryForeground: "#fafafa"
+  muted: "#262626"
+  mutedForeground: "#a3a3a3"
+  border: "#262626"
+  radius: "16px"
+
+seo:
+  title: "Ahmet Eren Özkara"
+  description: "Software developer from Istanbul, exploring new technologies since 2019. Started with simple tools, now coding everything myself to push past my limits."
+  keywords: "Ahmet Eren Özkara, Cyber Security, Istanbul, Technology, Information Security"
+  image: "https://aardaakpinar.github.io/assets/images/logos/nar.png"
+  favicon: "https://aardaakpinar.github.io/assets/images/logos/nar.png"
+  url: "https://aardaakpinar.github.io"
+
 profile:
   name: Ahmet Eren Özkara
-  title: Bilgi Güvenliği
-  description: >
-    Siber Güvenlik bölümü öğrencisiyim
+  title: Siber Güvenlik
+  description: Bilgi Güvenliği Yönetişim, Risk ve Uyum süreçleriyle ilgileniyorum.
+  avatar: https://aardaakpinar.github.io/assets/images/logos/nar.png
+  socials:
+    - name: github
+      url: https://github.com/aeozkara
+    - name: linkedin
+      url: https://linkedin.com/in/aeozkara
 
-  avatar: assets/img/pp.jpg
-
-main:
+cards:
   - type: hero
+    data: profile
 
   - type: links
-    title: Project Links
+    title: Bookmarks
     items:
-      - name: Live Demo
-        url: http://aardaakpinar.github.io/wall
-        icon: bx bx-link
-
-      - name: Documentation
-        url: https://github.com/aardaakpinar/wall
-        icon: bx bx-book
+      - name: Books
+        url: https://github.com/aardaakpinar/aardaakpinar/blob/main/bookmarks/books.md
+        icon: "bx bx-book"
+      - name: Movies
+        url: https://github.com/aardaakpinar/aardaakpinar/blob/main/bookmarks/movies.md
+        icon: "bx bx-movie"
+      - name: Series
+        url: https://github.com/aardaakpinar/aardaakpinar/blob/main/bookmarks/series.md
+        icon: "bx bx-tv"
 
   - type: image
-    image: https://picsum.photos/800/500
-    alt: "Wall Bento Grid Preview"
-    url: https://github.com/aardaakpinar/wall
-    span: 2
+    image: https://picsum.photos/600/400
+    url: https://picsum.photos
+    alt: "Random Image"
 
-
-  - type: title
-    text: Feature
-
-  - type: text
-    title: Features Showcase
+  - type: projects
     items:
-      - name: YAML Driven UI
-        description: Everything is controlled via a single config.yaml file.
-        url: https://github.com/aardaakpinar/wall
+      - name: Pitopi
+        description: Peer-to-peer chat.
+        tags: [TypeScript, Node.js, WebRTC, Socket.io]
+        url: "https://aardaakpinar.github.io/pitopi/"
 
-      - name: Bento Grid Engine
-        description: Responsive grid system inspired by modern UI design.
-        url: https://github.com/aardaakpinar/wall
+      - name: Limon
+        description: AI-powered terminal assistant.
+        tags: [Node.js, API]
+        url: "https://aardaakpinar.github.io/limon/"
 
-      - name: Plugin Renderer System
-        description: Each card type is a pluggable renderer function.
-        url: https://github.com/aardaakpinar/wall
+      - name: NaC
+        description: Interpreted language.
+        tags: [C]
+        url: "https://naclang.github.io/"
+
+      - name: Bibak
+        description: Client-side RSS reader.
+        tags: [JavaScript, indexedDB]
+        url: "https://aardaakpinar.github.io/bibak/"
+
+      - name: Sayıdışı
+        description: Find the missing digit.
+        tags: [HTML, CSS, JavaScript]
+        url: "https://aardaakpinar.github.io/sayidisi/"
+
+      - name: Kargo
+        description: Browser with almost no UI.
+        tags: [JavaScript, Electron]
+        url: "https://aardaakpinar.github.io/kargo/"
